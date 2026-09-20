@@ -261,7 +261,7 @@ const textToSpeech = async (text) => {
 
 
 app.get("/",(req,res)=>{
-    res.render("index.html");
+    res.render("googlea81613386071c8a8.html");
 });
 app.get("/admin_panel",IsloggedIn,(req,res)=>{
   const username = req.user.username;
